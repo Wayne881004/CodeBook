@@ -14,8 +14,8 @@
 
 
 
-在content.Tex 編寫 記得存檔
-在codebook.Tex 編譯 右上角 要換成XeLaTex
+##### 在content.Tex 編寫 記得存檔
+#####  在codebook.Tex 編譯 右上角 要換成XeLaTex
 ![](https://i.imgur.com/nsiVnhO.png)
 
 
