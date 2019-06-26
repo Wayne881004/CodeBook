@@ -1,6 +1,6 @@
-* 安裝 [MiKTeX](https://miktex.org/download)
+#### 安裝 [MiKTeX](https://miktex.org/download)
 
-* MikTeX 找到 Packages 安裝
+#### MikTeX 找到 Packages 安裝
 ![](https://i.imgur.com/wdw9xSq.jpg)
 
 
