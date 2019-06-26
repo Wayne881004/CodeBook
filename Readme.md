@@ -1,4 +1,4 @@
-安裝 MiKTeX(https://miktex.org/download)
+安裝 [MiKTeX](https://miktex.org/download)
 
 MikTeX 找到 Packages 安裝
 ![](https://i.imgur.com/wdw9xSq.jpg)
@@ -6,7 +6,7 @@ MikTeX 找到 Packages 安裝
 點右鍵 Install package
 
 
-安裝字體  思源黑體 Noto Sans CJK 下載(https://123.briian.com/forum.php?mod=viewthread&tid=4148)
+安裝字體  思源黑體 Noto Sans CJK [下載](https://123.briian.com/forum.php?mod=viewthread&tid=4148)
 ![](https://i.imgur.com/axLKefe.png)
 
 
