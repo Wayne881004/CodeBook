@@ -1,19 +1,26 @@
 #include<bits/stdc++.h>
 using namespace std;
+long long gcd(long long a, long long b)
+{
+	while(b)
+	  b ^= a ^= b ^= a %= b;
 
+	return a;
+}
 int main(int argc, char const *argv[])
 {
 	double L;
 	scanf("%lf",&L);
-	long long rp = 0, rq = 1;
+	long long rp = L,rq = 1,tmp;
 
-	for(long long  p , q = 1 ; q <= 300; ++q){ // 此MAX 要填甚麼
-		p = round(L*q);
-		if (fabs((double)p/q - L) < fabs((double)rp/rq - L)){
-			rp = p;
-			rq = q;
-		}
+	while(L != (long long)L){
+		L *= 10;
+		rp = (long long)L;
+		rq *= 10;
 	}
+	tmp = gcd(rp,rq);
+	rp /= tmp;
+	rq /= tmp;
 	printf("%lld/%lld\n",rp,rq);
 
 	return 0;
@@ -28,5 +35,12 @@ int main(int argc, char const *argv[])
 // float的最大值和最小值分别为3.40282e+038（10的38次方），1.17549e-038（10的38次方）
 // double的最大值和最小值分别为1.79769e+308（10的308次方），2.22507e-308（10的308次方）
 
-//INPUT 3 3.14 1.234567890123456 0
-//OUTPUT 3/1 157/50 19290123283179/15625000000000 
+//INPUT 
+3 
+3.14 
+1.234567890123456 
+0
+//OUTPUT 
+3/1 
+157/50 
+19290123283179/15625000000000 
