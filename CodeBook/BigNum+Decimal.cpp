@@ -1,3 +1,4 @@
+//2017 NCPU Problem.1
 #include<bits/stdc++.h>
 using namespace std;
 long long gcd(long long a, long long b)
