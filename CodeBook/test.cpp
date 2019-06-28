@@ -10,19 +10,20 @@ long long gcd(long long a, long long b)
 int main(int argc, char const *argv[])
 {
 	double L;
-	scanf("%lf",&L);
-	long long rp = L,rq = 1,tmp;
+	while(~scanf("%lf",&L) && L){
+		long long rp = L,rq = 1,tmp;
 
-	while(L != (long long)L){
-		L *= 10;
-		rp = (long long)L;
-		rq *= 10;
+		while(L != (long long)L){
+			L *= 10;
+			rp = (long long)L;
+			rq *= 10;
+		}
+		tmp = gcd(rp,rq);
+		rp /= tmp;
+		rq /= tmp;
+		printf("%lld/%lld\n",rp,rq);		
 	}
-	tmp = gcd(rp,rq);
-	rp /= tmp;
-	rq /= tmp;
-	printf("%lld/%lld\n",rp,rq);
-
+	
 	return 0;
 }
 // unsigned   int   0～4294967295   
@@ -35,12 +36,5 @@ int main(int argc, char const *argv[])
 // float的最大值和最小值分别为3.40282e+038（10的38次方），1.17549e-038（10的38次方）
 // double的最大值和最小值分别为1.79769e+308（10的308次方），2.22507e-308（10的308次方）
 
-//INPUT 
-3 
-3.14 
-1.234567890123456 
-0
-//OUTPUT 
-3/1 
-157/50 
-19290123283179/15625000000000 
+//INPUT 3 3.14 1.234567890123456 0
+//OUTPUT 3/1 157/50 19290123283179/15625000000000 
