@@ -4,16 +4,17 @@
 using namespace std;
  
 int main(){
-    int n;
-    while(cin>>n){
+    int N;
+    while(cin>>N){
         vector<int>v;
-        for(int i=0,x;i<n;i++){
-            cin>>x;
-            if(!v.size()||x>v.back())
-            	v.push_back(x);
+        int num;
+        for(int i=0;i<n;i++){
+            cin >> num;
+            if(!v.size() || num>v.back())
+            	v.push_back(num);
             else 
-            	*lower_bound(v.begin(), v.end(),x)=x;
+            	*lower_bound(v.begin(), v.end(),num) = num;
         }
-        cout<<v.size()<<'\n';
+        cout << v.size() << endl;
     }
 }
