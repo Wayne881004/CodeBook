@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7050 64-bit) (preloaded format=xelatex 2019.6.26)  26 JUN 2019 12:59
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7050 64-bit) (preloaded format=xelatex 2019.6.26)  8 JUL 2019 16:50
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -733,7 +733,12 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
 (xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
 
-(hello/world.cpp))
+(CodeBook/BigNum.cpp
+
+LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/it' undefined
+(Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 10.
+
+) (CodeBook/BigNum+Decimal.cpp
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
 Make it at least 3.60004pt.
@@ -742,15 +747,27 @@ This may cause the page layout to be inconsistent, however.
 
 [1
 
+]) (CodeBook/gcd.cpp
+Missing character: There is no ⋅ in font Consolas Italic/OT:script=latn;languag
+e=DFLT;!
+) (CodeBook/PrimeTable.cpp) (CodeBook/IsPrime.cpp)
+(CodeBook/LCS.cpp) (CodeBook/LIS(輸出幾個).h [2]) (CodeBook/LIS(輸出序列).h)
+(CodeBook/dfs.cpp) (CodeBook/bfs.h) (CodeBook/dijkstra.cpp [3])
+(CodeBook/kruskal.cpp) (CodeBook/SegmentTree(complete).h [4])
+(CodeBook/segment_tree.cpp)) [5
 
-] (codebook.aux) ) 
+] (codebook.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17242 strings out of 427669
- 361807 string characters out of 3144749
- 671100 words of memory out of 3000000
- 21178 multiletter control sequences out of 15000+200000
- 533877 words of font info for 61 fonts, out of 3000000 for 9000
+ 17663 strings out of 427669
+ 369703 string characters out of 3144749
+ 1028128 words of memory out of 3000000
+ 21558 multiletter control sequences out of 15000+200000
+ 533893 words of font info for 63 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 40i,11n,67p,339b,1110s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,12n,67p,339b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on codebook.pdf (1 page).
+Output written on codebook.pdf (5 pages).
