@@ -1,4 +1,4 @@
-void dfs visit  (int i , int len){
+void dfs_visit  (int i , int len){
   for(int j = 0 ; j < n ; j++){
       if(a[i][j]){
           if(a[i][j]){
